@@ -84,7 +84,7 @@ export default function App() {
                   &nbsp;and the Director of Finance. I started programing and
                   UI/UX Desgining in 2021.
                   <a
-                    href="#projects"
+                    href="#Projects"
                     className="font-bold"
                     style={{ color: "blueviolet" }}
                   >
