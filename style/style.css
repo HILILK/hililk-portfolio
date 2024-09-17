@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Roboto";
+    font-size: 15px;
+    /* font-weight: 400; */
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar:hover {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(31, 29, 29);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(93, 89, 89);
+    border-radius: 20px;
+  }
+
+  .profileimg{ 
+    border: 1;
+    border-width: 8px;
+    border-style: outset;
+    border-color: blueviolet;
+    box-shadow: 5px;
+  }
+
+  .profileimg:hover{
+    border-width: 10px;
+    transition-duration: 3ms;
+  }
+
+  @media screen and (min-width: 1000px) {
+
+    .home{
+      width: 75%;
+    }
+
+  }
+
+  @media screen and (min-width: 2000px) {
+
+    .home{
+      width: 50%;
+    }
+
+  }
+
+  .footer{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(9, 0, 17);
+    box-shadow: 20px;
+  }
