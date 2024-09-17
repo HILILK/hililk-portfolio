@@ -381,7 +381,7 @@ export default function App() {
                   </div>
                   <div className="w-full lg:w-1/2 flex justify-end">
                     <img
-                      src="Messenger.png"
+                      src="msg.png"
                       className="rounded-xl hover:opacity-75 lg:block hidden"
                       height={50}
                     />
