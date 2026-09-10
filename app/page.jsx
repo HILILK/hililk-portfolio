@@ -517,7 +517,7 @@ export default function App() {
                     <Link
                       isExternal
                       showAnchorIcon
-                      href="/assets/Adyapana_SMS.zip"
+                      href="/assets/"
                       className="mt-5"
                     >
                       Download the Project
